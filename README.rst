@@ -1,5 +1,5 @@
-BBC micro:bit MicroPython Editor for Browsers
-=============================================
+BBC micro:bit MicroPython Editor for Browsers (customized for IoTPods)
+======================================================================
 
 |Build status|
 
@@ -56,11 +56,12 @@ Code
 * ace - a directory containing the Ace editor (http://ace.c9.io).
 * bin - a directory containing useful scripts.
 * blockly - a GIT sub-module containing Google's blockly project.
+* data - contains a JSON file containing initial code and script name for different tutorials.
 * docs - a directory containing more documentation for the editor.
 * js - a directory containing the JavaScript code for running the editor.
 * CHANGELOG - a record of how things have changed between versions.
 * CONTRIBUTING.rst - a guide for people who want to contribute (you should!).
-* editor.html - the page to be loaded by your browser.
+* editor.html - the page to be loaded by your browser; it reads initial data from a JSON file.
 * help.html - a single page user facing help page.
 * lang - a directory containing the editor translations.
 * LICENSE - a copy of the MIT software license that covers this code.
