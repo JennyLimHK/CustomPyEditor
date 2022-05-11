@@ -11,6 +11,11 @@
             "defaultCode": "\ndef playSound(direction, prev_direction):\n\n\n\n\ndef displayDirection(bearing, prev_direction):\n\n\n\n\n\n\ndef main():\n\n\nwhile True:\n\n    if not compass.is_calibrated():\n\n\n    else:\n\n\n\nif __name__ == \"__main__\":\n    main()\n\n"        
         },
         {
+            "tutorialName": "accelerometer",
+            "scriptName": "stepcount", 
+            "defaultCode": "\nsteps=0\ndisplay.show(0)\n\nwhile True:\n    if accelerometer.was_gesture(\"shake\"):\n        steps +=1\n\n    if button_a.is_pressed():\n\n\n    if button_b.is_pressed():\n\n\n"        
+        },
+        {
             "tutorialName": "default",
             "scriptName": "microbit program",
             "defaultCode": "\nwhile True:\n    display.scroll('Hello, IoTPods!')\n    display.show(Image.DUCK)\n    sleep(2000)\n"
